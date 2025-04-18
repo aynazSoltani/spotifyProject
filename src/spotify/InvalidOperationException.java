@@ -1,7 +1,7 @@
 package spotify;
 
 public class InvalidOperationException extends Exception{
-  public  InvalidOperationException(String massage) {
-      super(massage);
+  public  InvalidOperationException(String message) {
+      super(message);
   }
 }
